@@ -10,7 +10,7 @@ class Solution:
         '''
         keep guessing using depth first search
         when todo list is finished in one search, return True and determinate the search
-        backtrack if failed (i.e., not reaching the end due to conflict)
+        backtrack if failed (i.e., return False not reaching the end due to conflict)
         '''
         import heapq
         if not self.todo: return True
@@ -37,7 +37,7 @@ class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """
         compute the possible solutions for each cell and keep them in a to-do list
-        maintain the todo list as a minheap so that the cell with the least options get to be guessed first.
+        maintain the todo list as a minheap so that the cell with the least options gets to be guessed first.
         In this way, the overall searching time is optimized
         """
         #initialize the solution for each row, col and box as '1-9'
