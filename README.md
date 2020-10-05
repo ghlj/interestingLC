@@ -1,11 +1,11 @@
 # interestingLC
-personal (optimized) solutions for interesting LeetCode problems based on basic understandings below.
+Personal (optimized) solutions for interesting LeetCode problems based on basic understandings below.
 
 Computer algorithms typically involve "exhaustive search" over the solution space,
 no matter if the solution space a linear array or list, or a tree or a graph, using the following traversal methods.
 
-For linear structures, we can use linear search, sliding window, two pointers; 
-if ordered, then we can use bisecting method to achieve O(logN)
+For linear structures, we can use linear search, sliding window, two pointers, etc; 
+if ordered, then we can use bisecting method to achieve O(logN) search
 
 For tree structures, breadth first search (BFS) and depth first search (DFS) are needed.
 For binary tree, BFS has preorder, in-order, post-order. 
